@@ -1,0 +1,1352 @@
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 40px 110px;
+}
+
+.profile-container {
+    position: relative;
+    width: 100%;
+    height: 290px;
+}
+
+.profile-bg {
+    background-image: cover;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.profile-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-header {
+    position: relative;
+    height: 120px;
+    top: 40%;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFBF2;
+    border: 1px solid #D8D8D8;
+    padding: 10px 10px;
+
+}
+
+.doctor-info {
+    display: flex;
+    position: relative;
+    right: 1%;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.doctor-image1 {
+    position: absolute;
+    top: 20%;
+    left: 20px;
+    transform: translateY(-20%);
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 170px;
+    height: 170px;
+    z-index: 3;
+}
+
+.doctor-details {
+    transform: scale(0.9);
+    position: relative;
+    right: 1%;
+}
+
+.doctor-details h2 {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    line-height: 0;
+    font-size: 20px;
+    color: #212529;
+    display: flex;
+    align-items: center;
+}
+
+.doctor-details h2 .verified {
+    margin-left: 10px;
+    font-size: 18px;
+    color: green;
+}
+
+.doctor-details p {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 1px 0;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    color: #3A643B;
+}
+
+
+
+.ratings {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: #626262;
+    margin-top: 8px;
+}
+
+.stars {
+    color: #f39c12;
+}
+
+.followers {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+    right: 1.5%;
+    display: flex;
+    transform: scale(0.9);
+    justify-content: space-around;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 2px;
+}
+
+.followers div {
+    text-align: center;
+}
+
+.label {
+    display: block;
+    font-size: 14px;
+    color: #3A643B;
+    ;
+}
+
+.value {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 2px;
+    color: #333;
+}
+
+.appointment-button {
+    background-color: #3A643B;
+    margin-left: 20px;
+    width: 220px;
+    font-size: 15px;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.appointment-button:hover {
+    background-color: #3A643B;
+}
+
+
+
+
+.profile-main-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+/* Left Section */
+.left-section {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* about Section */
+.about-section {
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 18px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.header-container {
+    background: linear-gradient(to right, #f4f7ec, #ffffff);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 30px;
+    border-radius: 18px 18px 0 0;
+}
+
+.header-container h3 {
+    font-family: "Nunito", serif;
+    font-weight: 600;
+    color: #313131;
+}
+
+.follow-button {
+    background-color: #FFFFFF;
+    color: #585858;
+    border: 1px solid #3A643B;
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.about-section p {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #999AA3;
+    padding: 15px 30px;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.read-more-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    padding: 0px 30px;
+}
+
+.read-more-line hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #dcdcdc;
+    margin-right: 10px;
+}
+
+.read-more {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #2B2B2B;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+.languages {
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.languages h4 {
+    font-size: 15px;
+    color: #000000;
+    font-family: "Nunito", serif;
+    font-weight: 600;
+}
+
+.languages span {
+    font-family: "Nunito", serif;
+    font-weight: 600;
+    color: #505050;
+    background-color: #F7F7FC;
+    padding: 4px 13px;
+    border-radius: 16px;
+    font-size: 14px;
+}
+
+.social-icons {
+    transform: scale(0.9);
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.social-icons i:hover {
+    color: #007bff;
+}
+
+
+
+
+
+/* specialization Section */
+.specialization-section {
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 18px;
+}
+
+.specialization-section h3 {
+    font-family: "Nunito", serif;
+    font-weight: 600;
+    color: #313131;
+    margin: 0;
+}
+
+.specialization-heading {
+    background: linear-gradient(to right, #f4f7ec, #ffffff);
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 30px;
+    border-radius: 18px 18px 0 0;
+}
+
+.specializations {
+    display: flex;
+    padding: 15px 50px;
+    flex-wrap: nowrap;
+    gap: 65px;
+}
+
+.specialization-item {
+    transform: scale(0.76);
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10px;
+}
+
+.specialization-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #EAEAEA;
+}
+
+.specialization-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.specialization-item span {
+    font-family: "Nunito", serif;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    white-space: nowrap;
+}
+
+
+
+
+/* concerns Section */
+.concerns-section {
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 18px;
+}
+
+.concerns-header {
+    background: linear-gradient(to right, #f4f7ec, #ffffff);
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 30px;
+    border-radius: 18px 18px 0 0;
+    font-family: "Nunito", serif;
+    font-weight: 600;
+    color: #313131;
+    margin: 0 0 15px;
+}
+
+.concerns-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.concerns-tags {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.concern-tag {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    display: inline-block;
+    background-color: #F7F7FC;
+    color: #3A643B;
+    border-radius: 19px;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.more-button {
+    background-color: #FFFFFF;
+    color: #3A643B;
+    border: 1px solid #E0DFDF;
+    padding: 5px 15px;
+    border-radius: 18px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.more-button span {
+    margin-left: 4px;
+}
+
+.more-button:hover {
+    background-color: #3A643B;
+    color: white;
+}
+
+
+
+
+
+
+/* workexperience Section */
+.workexperience-section {
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 18px;
+}
+
+.workexperience-heading {
+    background: linear-gradient(to right, #f4f7ec, #ffffff);
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 30px;
+    border-radius: 18px 18px 0 0;
+    font-family: "Nunito", serif;
+    font-weight: 600;
+    color: #313131;
+    margin: 0 0 15px;
+}
+
+.workexperience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0px 30px;
+    margin-bottom: 20px;
+}
+
+.workexperience-para {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #3A643B;
+}
+
+.workexperience-line {
+    width: 85%;
+    color: #D1D5D1;
+    margin-top: 0;
+}
+
+.workexperience-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.workexperience-item {
+    position: relative;
+    right: 2%;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.workexperience-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid #ddd;
+}
+
+.workexperience-image {
+    border: none;
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+}
+
+.workexperience-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.workexperience-details {
+    flex-grow: 1;
+}
+
+.workexperience-details h4 {
+    margin: 0;
+    color: #333548;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.workexperience-role {
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 5px 0 0;
+    font-size: 13px;
+    color: #999AA3;
+}
+
+.workexperience-duration {
+    font-weight: 600;
+    justify-content: start;
+    text-transform: uppercase;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    position: relative;
+    bottom: 2%;
+    font-weight: 500;
+    color: #777;
+}
+
+.duration2 {
+    position: relative;
+    right: 6%;
+}
+
+
+/* reviews Section */
+.reviews-section {
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 18px;
+}
+
+.reviews-heading {
+    background: linear-gradient(to right, #f4f7ec, #ffffff);
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 30px;
+    border-radius: 18px 18px 0 0;
+    font-family: "Nunito", serif;
+    font-weight: 600;
+    color: #313131;
+    margin: 0 0 15px;
+}
+
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+}
+
+.review {
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #FAFAFA;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-details h4 {
+    font-family: "Nunito", serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #333;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.profile-details p {
+    margin-top: 2px;
+    font-family: "Nunito", serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #939393;
+    margin: 0;
+}
+
+.review-date {
+    font-family: "Nunito", serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #939393;
+}
+
+.customer-review {
+    color: #2E2F2E;
+    font-family: "Nunito", serif;
+    font-weight: 600;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.rating {
+    font-size: 18px;
+    color: #ffd700;
+}
+
+.customer-review p {
+    color: #2E2F2E;
+    font-family: "Nunito", serif;
+    font-weight: 400;
+    font-size: 11.8px;
+    margin: 0;
+}
+
+
+
+
+
+/* Right Section */
+.right-section {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* appointment Section */
+.appointment-section {
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.appointment-fee {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    padding: 0px 25px;
+    border: 1px solid #e2e2e2;
+}
+
+
+.appointment-fee h3 {
+    font-family: "Nunito", serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+}
+
+.appointment-fee .fee {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: bold;
+    color: #3A643B;
+}
+
+.session-modes-section {
+    margin-top: 20px;
+    padding: 0px 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.session.video {
+    background-color: #F2FBF2;
+    position: relative;
+    border: 1px solid #3a643b92;
+}
+
+.session.video p {
+    color: #3A643B;
+    font-family: 'GowthamRoundedMedium', sans-serif;
+    font-family: 600;
+}
+
+.tick-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.session-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.session-header h4 {
+    font-family: "Nunito", serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000;
+}
+
+.session-header .line {
+    flex-grow: 1;
+    height: 1px;
+    color: #D4D4D4;
+    background-color: #D4D4D4;
+    margin-left: 25px;
+}
+
+.session-options {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 20px;
+}
+
+.session {
+    width: 160px;
+    line-height: 13px;
+    height: 65px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #E5E5E5;
+    text-align: center;
+}
+
+.session p {
+    color: #1F1F1F;
+    font-family: 'GowthamRoundedMedium', sans-serif;
+    font-family: 600;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.session span {
+    font-family: "Nunito", serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #606060;
+}
+
+
+
+.time-slot-section {
+    margin-top: 20px;
+    padding: 0px 10px;
+}
+
+.time-slot-header {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.time-slot-header h4 {
+    margin-left: 10px;
+    font-family: "Nunito", serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.calendar-icon {
+    background-color: #e2e2e2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    transform: scale(0.8);
+}
+
+.line1 {
+    flex-grow: 1;
+    margin-left: 40px;
+    color: #D4D4D4;
+}
+
+
+.time-slots {
+    display: flex;
+    height: 95px;
+    border: 1px solid #E1E1E1;
+    background-color: #FFFFFF;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+    border-radius: 21px;
+    padding: 2px 20px;
+}
+
+.slot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    color: #131313;
+    height: 60px;
+    border: 1px solid #e2e2e2;
+    border-radius: 11px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+/* Specific Styles for Mon, 10 Oct */
+.slot.mon {
+    background-color: #F2FBF2;
+    border: 1px solid #3A643B;
+}
+
+.slot.mon p {
+    color: #3A643B;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.slot.mon .slottimes span {
+    color: #818181;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+/* Specific Styles for Tue, 11 Oct */
+.slot.tue p {
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.slot.tue .slottimes span {
+    color: #D5512E;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+/* Specific Styles for Wed, 12 Oct */
+.slot.wed p {
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.slot.wed .slottimes span {
+    color: #F1B93A;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.slot p {
+    text-align: center;
+}
+
+.slottimes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slottimes span {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.next-icon,
+.prev-icon {
+    background: transparent;
+    border: none;
+}
+
+
+
+.day-slots {
+    margin-top: 20px;
+    padding: 0px 15px;
+}
+
+.morning,
+.evening {
+    margin-bottom: 20px;
+}
+
+.morning h4,
+.evening h4 {
+    font-family: "Nunito", serif;
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+.time-conatiner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 5px;
+}
+
+.times {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #EBEBEB;
+    width: 60px;
+    height: 30px;
+    padding: 12.5px 12.5px;
+    border-radius: 22px;
+    font-size: 13px;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #131313;
+    background-color: #FFFFFF;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
+
+.highlight {
+    background-color: #3A643B;
+    color: #FFFFFF;
+}
+
+
+
+
+.book-appointment {
+    text-align: center;
+    padding: 0px 25px;
+    margin-bottom: 20px;
+}
+
+.book-appointment button {
+    background-color: #3A643B;
+    color: #fff;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+
+
+/* Mobile Devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .profile-page {
+        padding: 20px 20px;
+    }
+
+    .profile-container {
+        height: 250px;
+    }
+
+    .profile-header {
+        flex-direction: column;
+        height: auto;
+        justify-content: flex-start;
+        padding: 15px 10px;
+    }
+
+    .doctor-info {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .doctor-image1 {
+        position: relative;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 120px;
+        height: 120px;
+    }
+
+    .doctor-details {
+        transform: scale(1);
+    }
+
+    .doctor-details h2 {
+        font-size: 18px;
+    }
+
+    .ratings {
+        font-size: 14px;
+    }
+
+    .followers {
+        width: 100%;
+        max-width: none;
+        justify-content: space-evenly;
+        margin-top: 5px;
+    }
+
+    .followers div {
+        text-align: left;
+    }
+
+    .appointment-button {
+        width: 100%;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .profile-main-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Left Section */
+    .left-section {
+        width: 100%;
+    }
+
+    /* about Section */
+    .about-section {
+        margin-top: 20px;
+    }
+
+    .header-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .about-section p {
+        font-size: 12px;
+    }
+
+    .languages {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .languages h4 {
+        font-size: 13px;
+    }
+
+    .languages span {
+        font-size: 12px;
+    }
+
+    .specializations {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .specialization-item {
+        width: 70%;
+        margin-bottom: 15px;
+    }
+
+    .concerns-section {
+        padding: 15px 20px;
+    }
+
+    .concerns-items {
+        gap: 15px;
+    }
+
+    .workexperience-section {
+        padding: 15px 20px;
+    }
+
+    .workexperience-heading {
+        padding: 10px;
+    }
+
+    .workexperience-container {
+        padding: 15px;
+    }
+
+    .workexperience-item {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .workexperience-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .workexperience-details h4 {
+        font-size: 13px;
+    }
+
+    .workexperience-role {
+        font-size: 12px;
+    }
+
+    .workexperience-duration {
+        font-size: 12px;
+    }
+}
+
+/* Tablets (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .profile-page {
+        padding: 30px 50px;
+    }
+
+    .profile-container {
+        height: 270px;
+    }
+
+    .profile-header {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 15px;
+    }
+
+    .doctor-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .doctor-image1 {
+        width: 140px;
+        height: 140px;
+    }
+
+    .doctor-details h2 {
+        font-size: 19px;
+    }
+
+    .ratings {
+        font-size: 15px;
+    }
+
+    .followers {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .appointment-button {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .profile-main-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Left Section */
+    .left-section {
+        width: 100%;
+    }
+
+    /* about Section */
+    .about-section {
+        margin-top: 20px;
+    }
+
+    .header-container {
+        padding: 15px;
+    }
+
+    .about-section p {
+        font-size: 14px;
+    }
+
+    .languages {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .languages h4 {
+        font-size: 14px;
+    }
+
+    .languages span {
+        font-size: 13px;
+    }
+
+    .specializations {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .specialization-item {
+        width: 60%;
+    }
+
+    .concerns-section {
+        padding: 20px 25px;
+    }
+
+    .concerns-items {
+        gap: 20px;
+    }
+
+    .workexperience-section {
+        padding: 20px 25px;
+    }
+
+    .workexperience-heading {
+        padding: 15px;
+    }
+
+    .workexperience-container {
+        padding: 20px;
+    }
+
+    .workexperience-item {
+        gap: 15px;
+    }
+
+    .workexperience-image {
+        width: 45px;
+        height: 45px;
+    }
+
+    .workexperience-details h4 {
+        font-size: 14px;
+    }
+
+    .workexperience-role {
+        font-size: 13px;
+    }
+
+    .workexperience-duration {
+        font-size: 13px;
+    }
+}
+
+/* Mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .right-section {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .appointment-button {
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+}
+
+/* Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .right-section {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .appointment-button {
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
