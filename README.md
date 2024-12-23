@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+Website Live Link ( Both Page Included in this) - https://amrutam-1.vercel.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# AMRUTAM Project
 
-## Available Scripts
+AMRUTAM is a web application designed to provide users with an easy-to-use platform to access medical services, find doctors, and book appointments. This project leverages modern web technologies to deliver a smooth user experience and efficient backend performance.
 
-In the project directory, you can run:
+## How to Navigate to the Second Page
 
-### `npm start`
+There are two main ways to navigate to the second page of the app:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. **Clicking on the "Find Doctors" Option in the Navbar**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   - In the navigation bar at the top of the page, you'll find the **Find Doctors** link.
+   - Clicking this will redirect you to the page where you can search for doctors based on various criteria such as expertise and location.
+   - This page allows you to filter and refine your search for doctors in your area.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2. **Clicking on "View Profile" in the Doctor Cards**
 
-### `npm run build`
+   - In the doctor cards displayed on the main page, each card contains a **View Profile** button.
+   - Clicking on **View Profile** will take you to a detailed profile page of the selected doctor.
+   - This page shows the doctor's full profile, including their qualifications, experience, availability, and other relevant details.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Doctor Search**: Users can search for doctors based on expertise and location.
+- **Filter Options**: Filters to refine doctor search results, including location and specialty.
+- **Appointment Booking**: Users can book consultations with doctors through the platform.
+- **User Authentication**: Login and signup functionality for users to manage their profiles and appointments.
+- **Responsive Design**: The website is fully responsive, offering an optimized experience across devices.
+- **Page Navigation**: Easily navigate through the app with intuitive links.
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Frontend**: HTML, CSS, JavaScript, React.js
+- **Version Control**: Git, GitHub
+- **Deployment**: Vercel
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To set up the project locally, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repository:
+git clone https://github.com/Nilabh2121/AMRUTAM1.git
 
-## Learn More
+2. Navigate into the project folder:
+cd amrutam
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install the required dependencies:
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Start the development server:
+npm start
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This will run the project on http://localhost:3000.
