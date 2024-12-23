@@ -7,7 +7,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const handleViewHome = () => {
-    navigate("/home");
+    navigate("/");
   };
 
   const handleViewProfile = () => {
